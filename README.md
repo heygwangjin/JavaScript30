@@ -17,7 +17,7 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 
 # Progress
 
-- <a href="">Day01</a> - JavaScript Drum Kit 
+- <a href="https://heygwangjin.github.io/web/2021/01/31/Day01/">Day01</a> - JavaScript Drum Kit 
 - <a href="">Day02</a> - JS and CSS Clock 
 - <a href="">Day03</a> - CSS Variables 
 - <a href="">Day04</a> - Array Cardio Day 1 
@@ -50,4 +50,4 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 
 # Today I Learned (Single Comment)
 
- 
+- <a href="https://velog.io/@takeknowledge/script-태그는-어디에-위치해야-할까요">script 태그는 body태그의 최하단에 위치하는것</a>이 좋다. 그 이유는 브라우저가 html을 parsing 하는 도중에, script 태그를 만나면, html 태그 parsing을 멈추고, script loading과 execution을 한다. 만약, body태그의 최하단에 위치시키지 못하는 경우, async와 defer속성을 이용하면 로딩 순서를 제어할 수 있다. async는 js의 loading이 마칠 때까지 html을 parsing하다가, js 실행이 되면 html parsing이 멈추고 js 실행이 완료되면 다시 html parsing을 한다. defer는 html의 parsing이 다 끝나고 나서 js가 실행되어서, 자바스크립트가 생성되지 않은 DOM트리를 조작할 일이 없다. 
