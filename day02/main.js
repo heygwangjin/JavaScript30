@@ -12,7 +12,6 @@ function changeSize() {
 
 function alarmSound() {
   const audio = document.querySelector('audio');
-  audio.src = 'alarm.wav';
   audio.play();
 }
 
